@@ -16,7 +16,7 @@ def extract_text_from_pdf(pdf_path):
             text += page_text + "\n"
     return text
 
-# 读取两本书的文本
+# 读取书的文本
 pdf_path1 = r"C:\Users\Administrator\Desktop\demo\book.pdf"  # 替换为你的 PDF 文件路径
 
 book1_text = extract_text_from_pdf(pdf_path1)
